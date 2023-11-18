@@ -5,13 +5,13 @@ const router = express.Router()
 
 router.get('/', (req,res) => {
     res.json({
-        'name' : 'Haripriya1'
+        'welcome' : 'Hello world json'
     })
 })
 
 router.get('/json', (req,res) => {
     res.json({
-        'name' : 'Haripriya'
+        'welcome' : 'Hello world'
     })
 })
 
